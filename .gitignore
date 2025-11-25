@@ -15,7 +15,7 @@ venv/
 env/
 ENV/
 
-# Python cache & build
+# Python build/cache
 
 *.egg-info/
 build/
@@ -26,11 +26,11 @@ dist/
 
 .ipynb_checkpoints/
 
-# Logs
+# Python logs
 
 *.log
 
-# Local environment variables
+# Environment variables
 
 .env
 .env.local
@@ -38,20 +38,41 @@ dist/
 
 # =========================
 
-# NODE / NPM
+# NODE / NPM / JAVASCRIPT
 
 # =========================
 
 node_modules/
+
+# Package logs
+
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 
-# Node build artifacts
+# JavaScript build outputs
 
 dist/
 build/
+out/
+
+# Next.js
+
+.next/
+
+# Svelte / Vite
+
+.svelte-kit/
+.vite/
+
+# Webpack cache
+
+.cache/
+
+# TypeScript
+
+*.tsbuildinfo
 
 # =========================
 
@@ -63,7 +84,7 @@ build/
 
 .vscode/
 
-# JetBrains / PyCharm
+# JetBrains
 
 .idea/
 
@@ -73,18 +94,18 @@ build/
 
 # =========================
 
-# Cursor AI workspace
+# Cursor
 
 .cursor/
 
-# Other AI assistants (only if folders exist)
+# Other local AI assistants (if present)
 
 claude/
 chatgpt/
 
 # =========================
 
-# LINUX / SYSTEM FILES
+# SYSTEM FILES
 
 # =========================
 
